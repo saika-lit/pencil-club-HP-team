@@ -41,3 +41,23 @@ main {
     margin: 30px auto;
     width: 960px;
 }
+h1 {
+    background-color: #F0F0F0;
+    padding: 20px 20px 20px 10px;
+    border-bottom: solid 3px rgba(53, 39, 3, 0.533)
+}
+a {
+    color: rgb(107, 17, 10);
+    display: block;
+    padding: 10px;
+    background-color: #F0F0F0;
+    text-decoration: none;
+    width: 195px;
+}
+a:visited { color: rgb(97, 27, 22);}
+a:hover {
+    color: rgb(107, 17, 10);
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover img { opacity: 0.6; }
