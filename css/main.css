@@ -3,6 +3,145 @@
     他のページごとのスタイルは、別ファイルを作成して記述をする。(要素を指定する場合など)
 */
 
+@charset "UTF-8";
+/*基本設定*/
+html {
+    font-size: 100%;
+}
+/*ボディ*/
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Baloo Thambi 2', cursive;
+    color: #330000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*ヘッダー*/
+
+.index-header-box ul li {
+  width: 150px;
+  height: 70px;
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+@media (max-width : 375px) {
+  .index-header-box ul li {
+  width: 100px;
+  height: 70px;
+  list-style-type: none;
+  font-size: 1.5em;
+  }
+}
+
+.general-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width : 375px) {
+  .general-navigation {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    margin: 50px;
+    display: flex;
+    justify-items: center;
+}
+
+@media (max-width : 375px) {
+  .logo {
+    justify-content: center;
+    margin: 10px;
+  }
+}
+
+.logo-img {
+  width: 70%;
+  height: auto;
+}
+
+@media (max-width : 375px) {
+  .logo-img {
+    width: 355px;
+    height: auto;
+    text-align: center;
+  }
+}
+
+body div.container {
+  flex-direction: column;
+}
+
+.header-ul {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 100px 0;
+}
+
+@media (max-width : 375px) {
+  .header-ul {
+    margin: 40px 30px 0;
+    justify-content: center;
+  }
+}
+
+a {
+    color: #330000;
+    text-decoration: none;
+    min-height: 50px;
+}
+
+a:hover {
+  bottom: -4px;
+  opacity: 1;
+  text-decoration: underline pink;
+}
+
+@media (max-width : 375px) {
+  a {
+    color: #330000;
+    text-decoration: none;
+    min-height: 50px;
+}
+
+a:hover {
+    color: #00CED1;
+}
+}
+
+
+.page-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 150px;
+    height: 40px;
+    width: 100%;
+}
+
+/* フッター */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+  .footer {
+    width: 100%;
+    background-color: #330000;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,34 +149,4 @@
 body {
     background-color: rgb(247, 246, 233);
     color: rgb(107, 17, 10);
-}
-
-/* ヘッダー */
-
-header {
-    /* 仮ヘッダーのスタイル */
-    /* 消してコーディングしてください */
-    border: solid 16px blue;
-    padding: 30px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-/* フッター */
-
-footer {
-    /* 仮フッターのスタイル */
-    border: solid 16px blue;
-    padding: 16px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-main {
-    margin: 30px auto;
-    width: 960px;
 }
