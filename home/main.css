@@ -43,16 +43,26 @@ main {
 }
 h1 {
     background-color: #F0F0F0;
-    padding: 20px 20px 20px 10px;
-    border-bottom: solid 3px rgba(53, 39, 3, 0.533)
+    padding: 15px 15px 15px 10px;
+    border-bottom: solid 3px rgb(97, 27, 22)
 }
 a {
     color: rgb(107, 17, 10);
+    text-decoration: none;
+}
+div {
     display: block;
     padding: 10px;
     background-color: #F0F0F0;
-    text-decoration: none;
-    width: 195px;
+    border-bottom: solid 1px rgb(97, 27, 22);
+    text-align: center;
+    width: 100%;
+}
+p {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    width: 980px;
 }
 a:visited { color: rgb(97, 27, 22);}
 a:hover {
