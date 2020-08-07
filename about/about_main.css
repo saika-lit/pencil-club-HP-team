@@ -41,3 +41,21 @@ main {
     margin: 30px auto;
     width: 960px;
 }
+h1 {
+    background-color: #F0F0F0;
+    padding: 15px 15px 15px 10px;
+    border-bottom: solid 3px rgb(97, 27, 22);
+}
+h2 {
+    background-color: #F0F0F0;
+    padding: 10px 10px 10px 7px;
+    border-left: solid 3px rgb(97, 27, 22);
+}
+li {
+    margin-top: 0;
+    line-height: 1.5;
+}
+p {
+    text-align: center;
+    font-weight: bold;
+}

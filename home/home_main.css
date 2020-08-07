@@ -44,7 +44,7 @@ main {
 h1 {
     background-color: #F0F0F0;
     padding: 15px 15px 15px 10px;
-    border-bottom: solid 3px rgb(97, 27, 22)
+    border-bottom: solid 3px rgb(97, 27, 22);
 }
 a {
     color: rgb(107, 17, 10);
