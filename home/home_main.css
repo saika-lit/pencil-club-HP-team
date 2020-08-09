@@ -50,12 +50,14 @@ p {
 }
 
 h1 {
-    background-color: #F0F0F0;
+    background:linear-gradient(
+        45deg,#F0F0F0 0%,#F0F0F0 50%,rgb(107, 17, 10) 50%,rgb(107, 17, 10) 100%
+        );
     padding: 15px 15px 15px 10px;
     border-bottom: solid 3px rgb(97, 27, 22);
 }
 
-a:visited { color: rgb(97, 27, 22);}
+.btn:visited { color: rgb(128, 47, 42);}
 
 .btn {
     position: relative;
@@ -79,4 +81,3 @@ a:visited { color: rgb(97, 27, 22);}
     text-decoration: none;
     background-color: rgb(107, 17, 10);
 }
-.btn:hover img { opacity: 0.6; }
