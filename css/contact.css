@@ -5,19 +5,18 @@ a {
 }
 
 a:hover {
-  bottom: -4px;
-  opacity: 1;
-  text-decoration: underline pink;
+    bottom: -4px;
+    opacity: 1;
+    text-decoration: underline pink;
 }
 
-@media (max-width : 375px) {
-  a {
-    color: #330000;
-    text-decoration: none;
-    min-height: 50px;
-  }
-
-  a:hover {
-      color: #00CED1;
-  }
+@media (max-width: 375px) {
+    a {
+        color: #330000;
+        text-decoration: none;
+        min-height: 50px;
+    }
+    a:hover {
+        color: #00CED1;
+    }
 }
