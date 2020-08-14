@@ -95,28 +95,28 @@ body div.container {
   }
 }
 
-a {
+header a {
     color: #330000;
     text-decoration: none;
     min-height: 50px;
 }
 
-a:hover {
+header a:hover {
   bottom: -4px;
   opacity: 1;
   text-decoration: underline pink;
 }
 
 @media (max-width : 375px) {
-  a {
+  header a {
     color: #330000;
     text-decoration: none;
     min-height: 50px;
-}
+  }
 
-a:hover {
-    color: #00CED1;
-}
+  header a:hover {
+      color: #00CED1;
+  }
 }
 
 
@@ -128,13 +128,19 @@ a:hover {
     width: 100%;
 }
 
+/* コンテンツ */
+main {
+  margin: 30px auto;
+  max-width: 960px;
+}
+
 /* フッター */
 .wrapper {
     display: flex;
     flex-direction: column;
 }
 
-  .footer {
+.footer {
     width: 100%;
     background-color: #330000;
     color: #ffffff;
