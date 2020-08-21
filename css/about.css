@@ -1,0 +1,26 @@
+h1 {
+    background: linear-gradient(
+        45deg, #F0F0F0 0%, rgb(189, 113, 107) 100%
+        );
+    padding: 15px 15px 15px 10px;
+    border-bottom: solid 3px rgb(97, 27, 22);
+}
+
+h2 {
+    background: linear-gradient(
+        45deg, #F0F0F0 0%, #F0F0F0 50%, rgb(107, 17, 10) 50%, rgb(107, 17, 10) 100%
+        );
+    padding: 10px 10px 10px 7px;
+    border-left: solid 3px rgb(97, 27, 22);
+}
+
+li {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.consept {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
