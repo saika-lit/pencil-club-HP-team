@@ -1,17 +1,26 @@
 h1 {
     background: linear-gradient(
-        45deg, #F0F0F0 0%, rgb(189, 113, 107) 100%
+        45deg, #F0F0F0 0%, rgb(151, 218, 240) 100%
         );
     padding: 15px 15px 15px 10px;
-    border-bottom: solid 3px rgb(97, 27, 22);
+    border-bottom: solid 3px rgb(81, 167, 196);
 }
 
 h2 {
     background: linear-gradient(
-        45deg, #F0F0F0 0%, #F0F0F0 50%, rgb(107, 17, 10) 50%, rgb(107, 17, 10) 100%
+        45deg, #F0F0F0 0%, #F0F0F0 50%, rgb(151, 218, 240) 25%, rgb(151, 218, 240) 100%
         );
     padding: 10px 10px 10px 7px;
-    border-left: solid 3px rgb(97, 27, 22);
+    border-left: solid 3px rgb(81, 167, 196);
+}
+@media screen and (max-width:549px){
+    h2 {
+        background: linear-gradient(
+            45deg, #F0F0F0 0%, #F0F0F0 50%, rgba(223, 242, 252, 0.795) 25%, rgb(81, 167, 196) 100%
+            );
+        padding: 10px 10px 10px 7px;
+        border-left: solid 3px rgb(81, 167, 196);
+    }
 }
 
 li {
