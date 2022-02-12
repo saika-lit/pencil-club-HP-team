@@ -46,9 +46,14 @@
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </main>
 
-        <footer class="footer">
-            <p><small>&copy; 2020 ペンシル倶楽部</small></p>
-        </footer>
+    <footer class="footer">
+        <p ID="current_year"><small>© 2020 ペンシル倶楽部</small></p>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script>
+        var today = new Date();
+        $('#current_year').html("<small>© 2020-" +today.getFullYear() +" ペンシル倶楽部</small>");
+    </script>
 
 </body>
 
